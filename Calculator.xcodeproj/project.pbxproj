@@ -21,6 +21,12 @@
 		0132920D299D1ADA00FEDF9F /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132920C299D1ADA00FEDF9F /* Calculator.swift */; };
 		01329213299D20B000FEDF9F /* CalculatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01329211299D20B000FEDF9F /* CalculatorCell.swift */; };
 		01329214299D20B000FEDF9F /* CalculatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01329212299D20B000FEDF9F /* CalculatorCell.xib */; };
+		015919A529A13DE6001B89B9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015919A429A13DE6001B89B9 /* String.swift */; };
+		015919A729A13F4A001B89B9 /* OperationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015919A629A13F4A001B89B9 /* OperationUtils.swift */; };
+		01F40236299E6BC700009475 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F40235299E6BC700009475 /* UITableView.swift */; };
+		01F40238299E7A2F00009475 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F40237299E7A2F00009475 /* UIView.swift */; };
+		01F40241299F8BF400009475 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F40240299F8BF400009475 /* UIViewController.swift */; };
+		01F4024529A125CE00009475 /* VisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F4024429A125CE00009475 /* VisionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		0132920C299D1ADA00FEDF9F /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		01329211299D20B000FEDF9F /* CalculatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorCell.swift; sourceTree = "<group>"; };
 		01329212299D20B000FEDF9F /* CalculatorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculatorCell.xib; sourceTree = "<group>"; };
+		015919A429A13DE6001B89B9 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		015919A629A13F4A001B89B9 /* OperationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationUtils.swift; sourceTree = "<group>"; };
+		01F40235299E6BC700009475 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		01F40237299E7A2F00009475 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		01F40240299F8BF400009475 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		01F4024429A125CE00009475 /* VisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +170,10 @@
 		01329201299D08B600FEDF9F /* extenstion */ = {
 			isa = PBXGroup;
 			children = (
+				01F40235299E6BC700009475 /* UITableView.swift */,
+				01F40237299E7A2F00009475 /* UIView.swift */,
+				01F40240299F8BF400009475 /* UIViewController.swift */,
+				015919A429A13DE6001B89B9 /* String.swift */,
 			);
 			path = extenstion;
 			sourceTree = "<group>";
@@ -165,6 +181,7 @@
 		01329202299D0BB700FEDF9F /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				015919A629A13F4A001B89B9 /* OperationUtils.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -182,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				01329209299D1A9B00FEDF9F /* CoreDataService.swift */,
+				01F4024429A125CE00009475 /* VisionService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -347,12 +365,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				01329206299D152600FEDF9F /* MainVC.swift in Sources */,
+				015919A529A13DE6001B89B9 /* String.swift in Sources */,
+				01F40241299F8BF400009475 /* UIViewController.swift in Sources */,
 				01329213299D20B000FEDF9F /* CalculatorCell.swift in Sources */,
 				013291D7299D088300FEDF9F /* Calculator.xcdatamodeld in Sources */,
 				0132920A299D1A9B00FEDF9F /* CoreDataService.swift in Sources */,
+				01F4024529A125CE00009475 /* VisionService.swift in Sources */,
 				013291CD299D088300FEDF9F /* AppDelegate.swift in Sources */,
+				01F40236299E6BC700009475 /* UITableView.swift in Sources */,
 				013291CF299D088300FEDF9F /* SceneDelegate.swift in Sources */,
+				01F40238299E7A2F00009475 /* UIView.swift in Sources */,
 				0132920D299D1ADA00FEDF9F /* Calculator.swift in Sources */,
+				015919A729A13F4A001B89B9 /* OperationUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +548,7 @@
 				DEVELOPMENT_TEAM = DA8L68M7F2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -555,6 +580,7 @@
 				DEVELOPMENT_TEAM = DA8L68M7F2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "use camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
